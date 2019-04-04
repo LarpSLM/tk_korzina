@@ -256,26 +256,32 @@ footer p {
 
 .foto_shop {
     width: 100%;
-    display: flex;
+}
+
+.shop_1,
+.shop_group {
+    display: inline-block;
+    width: calc(50% - 10px);
+    height: 700px;
+    background-size: cover;
 }
 
 .shop_1 {
-    width: 50%;
-    height: 600px;
-    background: url("../img/shop_img1.jpg");
-    background-size: cover;
+    background: url("../img/shop_img1.jpg") center;
+    margin-right: 20px;
 }
 
 .shop_2 {
-    width: 45%;
-    height: 240px;
+    width: 100%;
+    height: 340px;
     background: url("../img/shop_img2.jpg");
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 .shop_3 {
-    width: 45%;
-    height: 240px;
+    width: 100%;
+    height: 340px;
     background: url("../img/shop_img3.jpg");
     background-size: cover;
 }
