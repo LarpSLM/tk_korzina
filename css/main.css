@@ -112,9 +112,7 @@ main {
     display: inline-block;
     height: 400px;
     width: 575px;
-    background: gray;
     vertical-align: top;
-    margin: 20px 0;
 }
 
 .tile_1:hover,
@@ -122,12 +120,24 @@ main {
 .tile_3:hover,
 .tile_4:hover {
     box-shadow: 0 0 10px 2px;
-    color: #333;
-    transition: .3s;
+    background-color: rgba(226, 0, 125, 0.8);
+    transition: .5s;
 }
 
-.tile_img_1 img:hover {
-    transform: scale(1.1);
+.tile_1:hover > a .tile_img_1 img,
+.tile_2:hover > a .tile_img_2 img,
+.tile_3:hover > a .tile_img_3 img,
+.tile_4:hover > a .tile_img_4 img {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.tile_1:hover > a p,
+.tile_2:hover > a p,
+.tile_3:hover > a p,
+.tile_4:hover > a p {
+    color: white;
+    transition: .3s;
 }
 
 .tile_1:active,
@@ -137,26 +147,46 @@ main {
     box-shadow: none;
 }
 
+.tile_1 a,
+.tile_2 a,
+.tile_3 a,
+.tile_4 a {
+    text-decoration: none;
+}
+
 .tile_1,
 .tile_3 {
     margin-right: 20px;
 }
 
-.tile_img_1 {
+.tile_img_1,
+.tile_img_2,
+.tile_img_3,
+.tile_img_4 {
     width: 575px;
-    height: 400px;
-    background: url("../img/parhner.jpg")no-repeat;
+    height: 325px;
     overflow: hidden;
 }
 
-.tile_p_1 p {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: white;
-    font-size: 30px;
+.tile_img_1 img,
+.tile_img_2 img,
+.tile_img_3 img,
+.tile_img_4 img {
+    width: 100%;
 }
 
-.tile_img_2 p {
-    font-size: 100px;
+
+
+.tile_1 p,
+.tile_2 p,
+.tile_3 p,
+.tile_4 p {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #78B43A;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
 }
 
 .left_footer,
@@ -285,10 +315,6 @@ footer p {
     background: url("../img/shop_img3.jpg");
     background-size: cover;
 }
-
-
-
-
 
 
 /*VACANCY PAGES*/
