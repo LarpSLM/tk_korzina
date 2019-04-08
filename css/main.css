@@ -119,7 +119,6 @@ main {
 .tile_2:hover,
 .tile_3:hover,
 .tile_4:hover {
-    box-shadow: 0 0 10px 2px;
     background-color: rgba(226, 0, 125, 0.8);
     transition: .5s;
 }
