@@ -203,7 +203,7 @@ footer p {
 
 .information {
     background-color: #fafafa;
-    padding: 20px 50px;
+    padding: 20px;
 }
 
 .information h1 {
@@ -223,6 +223,33 @@ footer p {
     padding: 5px 0;
     text-align: justify;
 }
+
+/*PARTNERS PAGE*/
+
+.partnersMain {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.partnersMain p {
+    padding: 20px 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.partnersMain h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #78B43A;
+}
+
+.partnersMain ul li {
+    font-size: 20px;
+    margin: 5px 0;
+    text-align: justify;
+}
+
 
 /*SHOP PAGES*/
 
@@ -613,10 +640,18 @@ hr {
     margin: 5px 0;
 }
 
+.dalion_info a {
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: #E2007D;
+    text-align: right;
+}
+
 .device {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 20px 20px 0 20px;
     box-sizing: border-box;
 }
 
