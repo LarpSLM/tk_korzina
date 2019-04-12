@@ -546,3 +546,106 @@ hr {
 .cube p {
     margin: 20px 0;
 }
+
+/*DALION PAGES*/
+
+.dalion {
+    width: 100%;
+    text-align: center;
+}
+
+.dalionOne,
+.dalionTwo,
+.dalionThree {
+    display: inline-block;
+    width: calc((100% - 120px) / 3);
+    height: 258px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.dalionOne {
+    background: url("../img/dalion1.jpg") no-repeat left;
+}
+
+.dalionTwo {
+    background: url("../img/dalion2.jpg") no-repeat center;
+}
+
+.dalionThree {
+    background: url("../img/dalion3.jpg") no-repeat right;
+}
+
+.dalion h1 {
+    display: inline-block;
+    color: #78B43A;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.dalion .brand {
+    color: #E2007D;
+    padding-right: 10px;
+}
+
+.dalion_info {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.dalion_info h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.dalion_info p {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.dalion_info ul {
+    padding-left: 70px;
+}
+
+.dalion_info li {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.device {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.device div {
+    width: calc(100% / 3);
+    height: 300px;
+    background-size: contain;
+}
+
+.device_1 {
+    background: url("../img/device_1.jpg") no-repeat center;
+}
+
+.device_2 {
+    background: url("../img/device_2.png") no-repeat center;
+}
+
+.device_3 {
+    background: url("../img/device_3.jpg") no-repeat center;
+}
+
+.device_4 {
+    background: url("../img/device_4.jpg") no-repeat center;
+}
+
+.device_5 {
+    background: url("../img/device_5.jpg") no-repeat center;
+}
+
+.device_6 {
+    background: url("../img/device_6.jpg") no-repeat center;
+}
